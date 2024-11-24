@@ -1,0 +1,20 @@
+{
+  "name": "onetime-view-jobs",
+  "version": "1.0.0",
+  "description": "Cron jobs for OneTimeView",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.1",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prisma": "latest"
+  }
+}
